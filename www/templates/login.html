@@ -1,0 +1,25 @@
+<ion-view view-title="Login" align-title="left">
+    <ion-content class="login">
+        <div class="hero no-header flat">
+            <div class="content">
+                <div class="app-icon"></div>
+               
+            </div>
+        </div>
+        <div class="list">
+            <ion-md-input placeholder="identifiant" highlight-color="balanced" type="text" ng-model="user.email"></ion-md-input>
+            <ion-md-input placeholder="mot de passe" highlight-color="energized" type="password" ng-model="user.password"></ion-md-input>
+        </div>
+        <div class="padding">
+            <button  style="background-color:#5e0825;" class="button button-full button-assertive ink" ng-click="signup(user)">Connexion</button>
+        </div>
+        <div class="padding">
+            <button  style="background-color:#AB0A40;" class="button button-full button-assertive ink">Inscription</button>
+        </div>
+        <div class="button-bar social-login ">
+            <div class="ion-social-instagram"></div>
+            <div class="ion-social-twitter "></div>
+            <div class="ion-social-facebook"></div>
+        </div>
+    </ion-content>
+</ion-view>
